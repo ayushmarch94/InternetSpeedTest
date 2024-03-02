@@ -1,7 +1,6 @@
 import speedtest
 test=speedtest.Speedtest()
 
-print("loading server...")
 print("choosing best server...")
 best=test.get_best_server()
 print("Found",best['host'], "located in",best['country'])
