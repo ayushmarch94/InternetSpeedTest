@@ -37,7 +37,7 @@ root.geometry("600x300")
 spacer = tk.Label(root, bg="black", height=2)
 spacer.pack()
 
-#button
+#button for start
 button = tk.Button(root, text="Click to test the internet speed",bg="black",fg='white',font=("Arial", 12), command=on_button_click)
 button.pack()
 
